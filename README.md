@@ -1,8 +1,8 @@
-# vaclis-DynamicEQ Plugin 🎛️
+# vaclis-DynamicEQ Plugin 
 
 A professional 4-band dynamic EQ plugin with **interactive frequency response visualization**. Built with JUCE framework, featuring real-time spectrum analysis, draggable EQ points that follow the actual combined curve, and professional-grade audio processing.
 
-## 🚀 Features
+## Features
 
 ### Core Audio Processing
 - **4-Band Dynamic EQ System**: Professional multi-band dynamic equalization
@@ -39,7 +39,7 @@ A professional 4-band dynamic EQ plugin with **interactive frequency response vi
 #### macOS Security Note
 If you get a "malicious software" warning on macOS, you can solve by:
 1. **System Preferences**: System Preferences → Security & Privacy → Allow the blocked plugin  
-2. **Terminal command**: `sudo xattr -rd com.apple.quarantine ~/Library/Audio/Plug-Ins/VST3/vaclis-DynamicEQ.vst3` / `sudo xattr -rd com.apple.quarantine ~/Library/Audio/Plug-Ins/VST3/vaclis-DynamicEQ.component`
+2. **Terminal command**: `sudo xattr -rd com.apple.quarantine ~/Library/Audio/Plug-Ins/VST3/vaclis-DynamicEQ.vst3` / `sudo xattr -rd com.apple.quarantine ~/Library/Audio/Plug-Ins/Components/vaclis-DynamicEQ.component`
 
 ### Option 2: Build from Source
 
